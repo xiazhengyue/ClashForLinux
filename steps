@@ -1,1 +1,8 @@
 参考这两个文章：https://suying999.net/user/tutorial?os=linux&client=clash 和 https://www.xxpyy.top/detailed?id=14
+google搜索下载 clash-linux-amd64.tar.gz 并解压 然后 chmod +x clash
+下载订阅文件 wget -O config.yaml “https://s.suying666.info/link/dWD9bievcfV1Ih9y?clash=1&log-level=info"
+cd到clash（注意clash是文件 不是文件夹）所在文件夹，执行他./clash，然后退出
+cd到～/.config/clash目录下 替换第三步下载的config.yaml
+重启电脑 再执行./clash 就可以了
+配置开机自启动，
+
