@@ -3,6 +3,6 @@ google搜索下载 clash-linux-amd64.tar.gz 并解压 然后 chmod +x clash
 下载订阅文件 wget -O config.yaml “https://s.suying666.info/link/dWD9bievcfV1Ih9y?clash=1&log-level=info"
 cd到clash（注意clash是文件 不是文件夹）所在文件夹，执行他./clash，然后退出
 cd到～/.config/clash目录下 替换第三步下载的config.yaml
+配置代理，以 Ubuntu 19.04 为例，打开系统设置，选择网络，点击网络代理右边的 ⚙ 按钮，选择手动，填写 HTTP 和 HTTPS 代理为 127.0.0.1:7890，填写 Socks 主机为 127.0.0.1:7891，即可启用系统代理
 重启电脑 再执行./clash 就可以了
-配置开机自启动，
-
+配置开机自启动，参考https://www.xxpyy.top/detailed?id=14
